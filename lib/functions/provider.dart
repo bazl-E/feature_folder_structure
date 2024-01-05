@@ -10,7 +10,7 @@ import '../utils/logs.dart';
 /// feature by folder pattern.
 ///
 /// [dryRun] is a dev-only boolean to generate example folders
-void generateSimple(
+void generateProvider(
   ArgResults argResults, {
   bool dryRun = false,
 }) async {
@@ -23,7 +23,7 @@ void generateSimple(
     final brick = Brick.git(
       GitPath(
         'https://github.com/bazl-E/feature_folder_structure',
-        path: 'bricks/simple',
+        path: 'bricks/provider',
       ),
     );
     final generator = await MasonGenerator.fromBrick(brick);

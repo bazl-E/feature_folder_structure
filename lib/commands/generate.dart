@@ -1,5 +1,7 @@
 import 'package:args/command_runner.dart';
 
+import '../functions/bloc.dart';
+import '../functions/cubit.dart';
 import '../functions/index.dart';
 import '../utils/logs.dart';
 
@@ -38,6 +40,12 @@ class GenerateCommand extends Command {
       mandatory: false,
       help: 'Path inside lib folder',
     );
+    argParser.addOption(
+      'stateManagement',
+      abbr: 's',
+      mandatory: false,
+      help: 'choose state management:\n[bloc] Bloc\n[cubit] Cubit\n[none] None',
+    );
   }
 
   @override
@@ -51,11 +59,17 @@ class GenerateCommand extends Command {
     final time = Stopwatch();
     time.start();
     switch (argResults!['type'].toString()) {
-      case 'simple':
-        generateSimple(argResults!);
+      case 'provider':
+        generateProvider(argResults!);
         break;
       case 'getx':
         generateGetX(argResults!);
+        break;
+      case 'cubit':
+        generateCubit(argResults!);
+        break;
+      case 'bloc':
+        generateBloc(argResults!);
         break;
       default:
         LogService.error('Invalid Arguments');

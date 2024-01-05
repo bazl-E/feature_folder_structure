@@ -1,2 +1,2 @@
 export 'getx.dart';
-export 'simple.dart';
+export 'provider.dart';
