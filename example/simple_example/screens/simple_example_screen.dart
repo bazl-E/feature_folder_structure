@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class SimpleExampleScreen extends StatelessWidget {
-  const SimpleExampleScreen({Key? key}) : super(key: key);
+  const SimpleExampleScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Text('simple_example_screen'),
       ),
