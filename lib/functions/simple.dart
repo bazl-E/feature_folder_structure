@@ -22,7 +22,7 @@ void generateSimple(
   try {
     final brick = Brick.git(
       GitPath(
-        'https://github.com/RyanDsilva/feature_folder_cli',
+        'https://github.com/bazl-E/feature_folder_structure',
         path: 'bricks/simple',
       ),
     );
