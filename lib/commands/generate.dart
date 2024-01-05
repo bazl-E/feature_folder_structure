@@ -32,19 +32,14 @@ class GenerateCommand extends Command {
       'type',
       abbr: 't',
       mandatory: true,
-      help: 'Type of feature:\n[simple] Simple\n[getx] GetX',
+      help:
+          'Type of feature:\n[provider] Provider\n[getx] GetX \n[cubit] Cubit\n[bloc] Bloc',
     );
     argParser.addOption(
       'path',
       abbr: 'p',
       mandatory: false,
       help: 'Path inside lib folder',
-    );
-    argParser.addOption(
-      'stateManagement',
-      abbr: 's',
-      mandatory: false,
-      help: 'choose state management:\n[bloc] Bloc\n[cubit] Cubit\n[none] None',
     );
   }
 
@@ -58,7 +53,7 @@ class GenerateCommand extends Command {
   void run() {
     final time = Stopwatch();
     time.start();
-    switch (argResults!['type'].toString()) {
+    switch (argResults!['type'].toString().toLowerCase()) {
       case 'provider':
         generateProvider(argResults!);
         break;
