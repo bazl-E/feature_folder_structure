@@ -1,4 +1,4 @@
-part of 'name_lower_case_bloc.dart';
+part '{{name.pascalCase()}}_bloc.dart';
 
 sealed class {{name.pascalCase()}}State extends Equatable {
   const {{name.pascalCase()}}State();

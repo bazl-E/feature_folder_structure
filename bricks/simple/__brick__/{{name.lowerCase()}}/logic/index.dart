@@ -1,1 +1,1 @@
-export '{{name.lowerCase()}}_bloc.dart';
+export '../logic/index.dart';
