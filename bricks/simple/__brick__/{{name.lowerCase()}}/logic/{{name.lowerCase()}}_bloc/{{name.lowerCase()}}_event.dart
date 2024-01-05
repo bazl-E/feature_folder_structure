@@ -1,4 +1,4 @@
-part '{{name.pascalCase()}}_bloc.dart';
+part of '{{name.lowerCase()}}_bloc.dart';
 
 sealed class {{name.pascalCase()}}Event extends Equatable {
   const {{name.pascalCase()}}Event();
