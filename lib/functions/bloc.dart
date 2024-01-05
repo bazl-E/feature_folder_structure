@@ -29,7 +29,7 @@ void generateBloc(
     final generator = await MasonGenerator.fromBrick(brick);
     final target = DirectoryGeneratorTarget(
       Directory(customPath
-          ? DirectoryService.replaceAsExpected(path: 'lib/$dir')
+          ? DirectoryService.replaceAsExpected(path: 'lib/features/$dir')
           : DirectoryService.paths[dir]!),
     );
     await generator.generate(
