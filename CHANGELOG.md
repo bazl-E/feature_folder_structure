@@ -1,18 +1,19 @@
-# 0.3.0
-* Updated dependencies and SDK version
-* Added more documentation
+# Changelog
 
-# 0.2.0
-* Changed project strcture to use GitPath for bricks
-* Converted the simple folder structure to use bricks
-* Added ability to specifiy a custom path within the lib folder
+## 1.0.2
+- Updated dependencies and SDK version.
+- Added more documentation to improve usability and clarity.
 
-# 0.1.1
-* Added the ability to support GetX as state management solution
-* Changed internal working to use mason bricks
+## 1.0.1
+- Enhanced project structure to use GitPath for bricks.
+- Switched to Mason bricks for a more modular and customizable folder structure.
+- Added option to specify a custom path within the `lib` folder for generated features.
 
-# 0.0.4
+## 1.0.0
+- Added support for GetX as a state management solution.
+- Improved internal structure by incorporating Mason bricks.
 
-* Ability to generate screen, widgets
-* Ability to generate data models
-* Ability to generate data repository, services and providers
+## 0.0.4
+- Introduced the ability to generate screens and widgets.
+- Enabled generation of data models.
+- Added functionality to create data repositories, services, and providers.
