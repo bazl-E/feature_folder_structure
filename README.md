@@ -33,8 +33,8 @@ ff generate -n <feature_name> -t <type> -p <path>
 
 ## Example Usage :wrench:
 ```sh
-ff generate -n Example -t provide -p /lib
-ff generate -n Example -t getx -p /lib
-ff generate -n Example -t cubit -p /lib
-ff generate -n Example -t bloc -p /lib
+ff generate -n Example -t provide -p features
+ff generate -n Example -t getx -p features
+ff generate -n Example -t cubit -p features
+ff generate -n Example -t bloc -p features
 ```
