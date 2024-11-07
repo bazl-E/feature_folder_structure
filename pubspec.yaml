@@ -4,19 +4,19 @@ description: >-
   required to setup directories for models, services, repositories, screens and
   widgets.
 version: 0.3.0
-homepage: https://github.com/RyanDsilva/feature_folder_cli
+homepage: https://github.com/bazl-E/feature_folder_structure
 
-documentation: https://github.com/RyanDsilva/feature_folder_cli#folder-by-feature-cli-utility
+documentation: https://github.com/bazl-E/feature_folder_structure
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
   flutter: ">=3.3.0"
 
 dependencies:
-  ansicolor: ^2.0.2
-  args: ^2.5.0
-  mason: ^0.1.0-dev.53 
-  path: ^1.9.0
+  ansicolor: ^2.0.3
+  args: ^2.6.0
+  mason: ^0.1.0-dev.60
+  path: ^1.9.1
 
 dev_dependencies:
   test: ^1.25.5

@@ -29,4 +29,12 @@ feature/
 ff generate -n <feature_name> -t <type> -p <path>
 ```
 
-> Currently supporting only the `simple` and `getx` types
+> Currently supporting  the `provider` , `getx` , `cubit` and `bloc` types
+
+## Example Usage :wrench:
+```sh
+ff generate -n Example -t provide -p /lib
+ff generate -n Example -t getx -p /lib
+ff generate -n Example -t cubit -p /lib
+ff generate -n Example -t bloc -p /lib
+```
