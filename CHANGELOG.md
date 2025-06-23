@@ -2,6 +2,9 @@
 
 ## 1.0.2
 - Updated dependencies and SDK version.
+
+## 1.0.2
+- Updated dependencies and SDK version.
 - Added more documentation to improve usability and clarity.
 
 ## 1.0.1
