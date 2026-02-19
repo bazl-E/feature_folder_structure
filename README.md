@@ -5,6 +5,13 @@ A Dart CLI tool that generates a folder structure based on the folder-by-feature
 
 This tool builds on the original [`feature_folder_cli`](https://pub.dev/packages/feature_folder_cli/install), which hasn't been maintained for over 1.5 years. This version introduces enhancements and improvements, making it a more robust and up-to-date solution.
 
+## ✨ V2.0 - Zero Dependencies!
+
+**No more Mason dependency!** Starting from v2.0, this CLI uses pure Dart templates - meaning:
+- 🚀 **Faster execution** - no network calls to fetch bricks
+- 🔒 **No breaking changes** - won't break when external packages update
+- 📦 **Self-contained** - everything bundled in the CLI
+
 ## Folder Structure :file_folder:
 
 The CLI generates the following folder structure for each feature:
