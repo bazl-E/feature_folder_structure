@@ -1,12 +1,19 @@
 name: feature_folder_cli_plus
 description: >-
-  CLI utility that generates a folder structure to reduce the repetitive work
-  required to setup directories for models, services, repositories, screens and
-  widgets.
+  A powerful CLI tool that generates clean folder structures following the 
+  feature-first architecture pattern. Supports BLoC, Cubit, Provider & GetX.
 version: 2.0.0
 homepage: https://github.com/bazl-E/feature_folder_structure
+repository: https://github.com/bazl-E/feature_folder_structure
+issue_tracker: https://github.com/bazl-E/feature_folder_structure/issues
+documentation: https://github.com/bazl-E/feature_folder_structure#readme
 
-documentation: https://github.com/bazl-E/feature_folder_structure
+topics:
+  - cli
+  - flutter
+  - bloc
+  - architecture
+  - code-generator
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
@@ -17,7 +24,7 @@ dependencies:
   path: ^1.9.1
 
 dev_dependencies:
-  test: ^1.26.2
+  test: ^1.29.0
 
 executables:
   ff: main
