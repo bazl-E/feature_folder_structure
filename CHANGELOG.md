@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.1
+## 2.0.2
 
 - Improved README with better documentation and examples
 - Added pub.dev topics for better discoverability
