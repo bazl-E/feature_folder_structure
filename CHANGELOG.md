@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.1
+- Repository class is now abstract (proper contract pattern)
+- Service class now implements Repository
+- Removed unnecessary index.dart from bloc/cubit folders
+- Improved README with better documentation and examples
+- Added pub.dev topics for better discoverability
+
 ## 2.0.0
 **Breaking Change: Removed Mason dependency entirely!**
 
@@ -12,12 +19,6 @@
 
 ## 1.0.2
 - Updated dependencies and SDK version.
-
-## 1.0.2
-- Updated dependencies and SDK version.
-- Added more documentation to improve usability and clarity.
-
-## 1.0.1
 - Enhanced project structure to use GitPath for bricks.
 - Switched to Mason bricks for a more modular and customizable folder structure.
 - Added option to specify a custom path within the `lib` folder for generated features.

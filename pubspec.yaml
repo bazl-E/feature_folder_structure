@@ -2,7 +2,7 @@ name: feature_folder_cli_plus
 description: >-
   A powerful CLI tool that generates clean folder structures following the 
   feature-first architecture pattern. Supports BLoC, Cubit, Provider & GetX.
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/bazl-E/feature_folder_structure
 repository: https://github.com/bazl-E/feature_folder_structure
 issue_tracker: https://github.com/bazl-E/feature_folder_structure/issues
