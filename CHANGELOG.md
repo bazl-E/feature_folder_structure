@@ -1,9 +1,7 @@
 # Changelog
 
 ## 2.0.1
-- Repository class is now abstract (proper contract pattern)
-- Service class now implements Repository
-- Removed unnecessary index.dart from bloc/cubit folders
+
 - Improved README with better documentation and examples
 - Added pub.dev topics for better discoverability
 
